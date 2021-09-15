@@ -1,0 +1,59 @@
+main{
+
+  background: url("code_background.jpg"), RGBA(34,87,122,0.74);
+  background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover;
+ padding: 5% 0 ;
+ display: grid;
+ place-items:center;
+
+
+}
+
+header{
+font-family: sans-sans-serif;
+text-align: center;
+color: #345B63;
+
+}
+label{
+font-weight:bold;
+}
+
+p{
+font-weight:bold;
+}
+h1{
+  font-family: arial black
+}
+
+.content{
+  background-color: RGBA(17,32,49,0.82);
+  display:grid;
+
+  padding: 20px 30px;
+  border-radius:4px;
+color: #D4ECDD;
+
+
+  }
+  .coding-hours{
+  text-align: left;
+  margin-bottom: 40px;
+  }
+
+  .btn{
+    margin: 30px 0 ;
+  }
+
+  .checkbox-p{
+    position: relative;
+    right:22px;
+  }
+/*label {
+      display: flex;
+      align-items: center;
+
+      margin-bottom: 0.5rem;
+  } */
